@@ -30,20 +30,21 @@ export default function Header() {
 
           {/* Desktop sign in links */}
           <ul className="flex flex-1 items-center justify-end gap-3">
+            
             <li>
               <Link
-                href="/signin"
-                className="btn-sm bg-white text-gray-800 shadow hover:bg-gray-50"
+                href="/"
+                className="btn-sm bg-gray-800 text-gray-200 shadow hover:bg-gray-900"
               >
-                Login
+                Request a Demo
               </Link>
             </li>
             <li>
               <Link
-                href="/signup"
+                href="/"
                 className="btn-sm bg-gray-800 text-gray-200 shadow hover:bg-gray-900"
               >
-                Register
+                Github
               </Link>
             </li>
           </ul>
